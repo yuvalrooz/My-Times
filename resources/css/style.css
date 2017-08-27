@@ -62,10 +62,6 @@ nav span {
   padding-right: 35px;
   }
 
-div {
-  border: 1px solid black;
-}
-
 .article_img span{
   display: flex;
   font-family: Georgia;
@@ -78,6 +74,22 @@ div {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+}
+
+.articles {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.articles .article {
+  width: 47%;
+  height: 250px;
 }
 
 #mother_tuna {
@@ -102,4 +114,10 @@ div {
 
 #main_article span{
   font-size: 40px;
+}
+
+#main_article p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
